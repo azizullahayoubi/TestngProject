@@ -25,7 +25,7 @@ public class SoftAssertionDemo2 {
 
     @Test
     public void loginAndValidateTitle(){
-        String expectedTitle="Human Management  ex System";
+        String expectedTitle="Human Management System";
         String actualTitle= driver.getTitle();
 
         SoftAssert softAssert=new SoftAssert();

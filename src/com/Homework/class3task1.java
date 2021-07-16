@@ -1,7 +1,6 @@
 package com.Homework;
 
 import com.testBases.BaseClass;
-import com.utils.CommonMethods;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;

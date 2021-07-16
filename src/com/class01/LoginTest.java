@@ -12,7 +12,7 @@ public class LoginTest {
       WebDriver driver;
     @BeforeMethod
     public void openBrowserAndLaunch(){
-        System.setProperty("webdriver.chrome.driver","Drivers/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","Drivers/chromedriver1.exe");
         driver=new ChromeDriver();
         driver.get("http://hrm.syntaxtechs.net/humanresources/symfony/web/index.php/auth/login");
         driver.manage().window().maximize();
